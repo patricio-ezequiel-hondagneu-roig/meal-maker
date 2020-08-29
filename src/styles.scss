@@ -1,0 +1,26 @@
+*, *::before, *::after {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	display: flex;
+	flex-flow: column nowrap;
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+}
+
+mmk-root {
+	flex: 1 1 auto;
+	display: flex;
+	flex-flow: column nowrap;
+	position: relative;
+}
