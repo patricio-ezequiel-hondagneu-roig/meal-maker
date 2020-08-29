@@ -1,5 +1,6 @@
 {
   "name": "meal-maker",
+  "description": "An example Angular application to allow customers to order meals by picking the type, amount and distribution of the ingredients from the user interface.",
   "version": "0.0.0",
   "scripts": {
     "start": "ng serve",
