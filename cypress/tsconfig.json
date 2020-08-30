@@ -2,9 +2,6 @@
 	"extends": "../tsconfig.base.json",
     "compilerOptions": {
 		"outDir": "../../dist/out-tsc",
-		"types": [
-			"cypress"
-		],
 		"strict": true,
 		"baseUrl": "../node_modules",
         "sourceMap": false,

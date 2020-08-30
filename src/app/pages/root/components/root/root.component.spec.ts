@@ -4,8 +4,8 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { RootComponent } from './root.component';
 
 describe( 'RootComponent', ( ) => {
-	let fixture: ComponentFixture<RootComponent>;
 	let component: RootComponent;
+	let fixture: ComponentFixture<RootComponent>;
 
 	beforeEach( async( ( ) => {
 		TestBed
